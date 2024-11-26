@@ -1,0 +1,39 @@
+::ng-deep ::-webkit-scrollbar{
+    display: none;
+}
+
+::ng-deep .mdc-line-ripple {
+    display: none;
+}
+
+::ng-deep .mat-mdc-form-field-subscript-wrapper{
+    display: none;
+}
+
+::ng-deep .mat-mdc-text-field-wrapper {
+    width: 100%;
+    width: 100%;
+    background-color: white !important;
+    border-radius: 10px !important;
+}
+mat-select,
+mat-label,
+mat-option {
+  font-size: small;
+  background-color: transparent;
+}
+
+mat-form-field {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: small;
+    border-radius: 5px;
+    margin: 0;
+    box-shadow: 1px 1px 2px grey;
+  }
+
+  button{
+    width: 100%;
+    border-radius: 5px;
+  }

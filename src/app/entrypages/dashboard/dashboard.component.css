@@ -1,0 +1,95 @@
+button{
+    width: 100%;
+    margin: 20px;
+}
+
+.border{
+    margin: 15px;
+    padding: 15px;
+    margin-left: 260px;
+    
+}
+
+
+.typewriter h1 {
+    overflow: hidden;
+    /* border-right: .15em solid rgb(95, 202, 255); */
+    white-space: nowrap;
+    margin: 0;
+    /* letter-spacing: .15em; */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(0, 122, 182)
+    }
+}
+
+.digital {
+    color: #d24d57;
+    /* Gradient-like effect for 'Digital' */
+    background: linear-gradient(90deg, #d24d57, #00aaff);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorShift 3s infinite alternate ease-in-out;
+    background-clip: text;
+}
+
+@keyframes animateBackground {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes textFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes colorShift {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .border{
+        margin: 10px;
+    }
+}

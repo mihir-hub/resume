@@ -1,0 +1,32 @@
+<div class="px-2 my-auto">
+    <div class="row m-auto">
+        <div class="col my-auto align-middle">
+            <h2 class="my-auto" style="text-align: center; margin-top: 15px;">{{this.name}}, feel free to connect with me on;</h2>
+        </div>
+        <!-- <div class="col ml-auto text-right align-middle"><button class="btn btn-sm text-right btn-close" mat-dialog-close style="height: 20px; width: 20px; border: 1px solid black"></button></div> -->
+    </div>
+</div>
+<hr>
+<mat-dialog-content class="mat-typography" style="z-index: 15;">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label class="form-control" for="" style="margin-bottom: 15px;">Mobile:</label>
+        </div>
+        <div class="form-group col-md-8">
+            <label class="form-control" for="" style="margin-bottom: 15px;">{{this.mobile}}</label>
+        </div>
+        <div class="form-group col-md-4">
+            <label class="form-control" for="" style="margin-bottom: 15px;">E-mail:</label>
+        </div>
+        <div class="form-group col-md-8">
+            <label class="form-control" for="" style="margin-bottom: 15px;">{{this.email}}</label>
+        </div>
+        <div class="form-group col-md-4">
+            <label class="form-control" for="" style="margin-bottom: 15px;">LinkedIn:</label>
+        </div>
+        <div class="form-group col-md-8">
+            <label class="form-control" for="" style="margin-bottom: 15px;"><a href="https://linkedin.com/in/mj1605">{{this.linkedin}}</a></label>
+        </div>
+    </div>
+    <button class="btn btn-danger" mat-dialog-close>Close</button>
+</mat-dialog-content>

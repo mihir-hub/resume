@@ -1,0 +1,16 @@
+<div class="px-2 my-auto">
+    <div class="row m-auto">
+        <div class="col my-auto align-middle">
+            <h2 class="my-auto">Hi {{this.name}}</h2>
+        </div>
+        <div class="col ml-auto text-right align-middle"><button class="btn btn-sm text-right btn-close" mat-dialog-close style="height: 20px; width: 20px; border: 1px solid black"></button></div>
+    </div>
+</div>
+<mat-dialog-content class="mat-typography">
+    <mat-tab-group>
+        <a href=""><mat-tab label="About Me"><app-aboutme></app-aboutme></mat-tab></a>
+        <a href=""><mat-tab label="Experience"><app-experience></app-experience></mat-tab></a>
+        <a href=""><mat-tab label="Skills"><app-skills></app-skills></mat-tab></a>
+        <a href=""><mat-tab label="Education"><app-education></app-education></mat-tab></a>
+    </mat-tab-group>
+</mat-dialog-content>

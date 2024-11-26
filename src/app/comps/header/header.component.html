@@ -1,0 +1,23 @@
+<mat-toolbar>
+    <h1 style="font-size: xx-large;">Profile<span class="digital">Eclipse</span></h1>
+    <p>Hi {{userFirstName}}, Welcome</p>
+    <div class="sidenav-content">
+      <!-- <button type="button" mat-button (click)="drawer.toggle()">Open</button> -->
+      <img type="button" src="./menu-bar.png" alt="" width="25px" height="25px" mat-button (click)="drawer.toggle()">
+  </div>
+  </mat-toolbar>
+  <div class="sidebar">
+    <button class="btn btn-secondary btnside"><img src="house.png" width="30px" height="30px" alt="">&nbsp; Home</button>
+    <button class="btn btn-secondary btnside" (click)="openAbout()"><img src="analysis.png" width="30px" height="30px" alt="">&nbsp;About</button>
+   
+</div>
+
+<mat-drawer-container class="app-container">
+  <mat-drawer #drawer class="sidenav" mode="side">
+    <div class="form-group col-md-12" >
+      <button mat-raised-button>Home</button>
+    </div>
+    <div class="form-group col-md-12">
+      <button mat-raised-button (click)="openAbout()">About</button>
+    </div>
+  </mat-drawer>

@@ -1,0 +1,99 @@
+.mat-typography{
+    border-radius: 0px;
+    margin: 10px;    
+    font-size: small;
+    padding: 1px 16px;
+    height: 350px;
+    border: 1px;
+    overflow-x: hidden !important;
+    padding-bottom: 0;
+    caret-color: transparent;
+    padding: 1px 16px;
+    scrollbar-width: none;   
+}
+.mat-typography label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    caret-color: transparent;
+}
+::ng-deep button{
+    float: right;
+    margin: 15px;
+    margin-right: 2px;
+    border: none;
+    border-radius: 10px ;
+    caret-color: transparent;
+}
+
+.mat-typography h2{
+    margin: 20px;
+
+}
+
+::ng-deep .mdc-tab__text-label{
+    font-size: small !important;
+    caret-color: transparent;
+    margin-bottom: 0px;
+    
+}
+
+::ng-deep .mdc-tab{
+    width: 150px;
+    overflow-x: hidden !important;
+    caret-color: transparent;
+}
+
+::ng-deep .mat-mdc-tab-group{
+    --mdc-tab-indicator-active-indicator-color: rgb(0, 31, 88);
+    --mdc-tab-indicator-active-indicator-height:50px;
+    --mat-tab-header-active-focus-indicator-color: rgb(0, 31, 88);
+    --mat-tab-header-active-focus-label-text-color: white;
+    --mat-tab-header-active-label-text-color: white;
+}
+
+::ng-deep .mdc-tab:hover{
+    background-color: rgb(150, 199, 255);
+    transition: 1s;
+    caret-color: transparent;
+}
+
+::ng-deep .mat-mdc-tab-body-content {
+    overflow-x:hidden !important;
+    caret-color: transparent;
+
+}
+
+::ng-deep .mat-mdc-dialog-container{
+    padding:0;
+    overflow-x:hidden !important;
+    caret-color: transparent;
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 20px 1px black;
+}
+
+@media screen and (max-width: 600px) {
+    ::ng-deep .mdc-tab{
+        width: auto;
+        text-align: center;
+        overflow-x: hidden !important;
+        caret-color: transparent;
+    }
+}
+
+.form-row label{
+    margin-top: 10px;
+    font-size: small;
+    margin-left: 0;
+    padding: 10px 16px;
+    border: none;
+    box-shadow: 1px 10px 20px grey ;
+}
+
+.form-row input{
+    font-size: small;
+}
+
+
+::ng-deep .mat-mdc-dialog-container .mdc-dialog__surface{
+    border-radius: 10px;
+}
